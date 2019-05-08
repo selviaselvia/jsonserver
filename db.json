@@ -2,11 +2,21 @@
 	"phases": [{
 		"key": 1,
 		"value": "phase 1"
+		"domains": [{
+			"key": "domain 1 phase 1",
+			"value" : "domain 1 phase 1"
+		}]
 	},{
 		"key": 2,
-		"value": "phase 2"
+		"value": "phase 2",
+		"domains": [{
+			"key": "domain 1 phase 2",
+			"value" : "domain 1 phase 2"
+		}]
+
 	},{
 		"key": 3,
-		"value": "phase 3"		
+		"value": "phase 3"	
+		"domains":[]
 	}]
 }

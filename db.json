@@ -1,22 +1,42 @@
 {
-	"phases": [{
-		"key": "Pre-Deal Phase 1",
-		"value": "Pre-Deal Phase 1",
-		"domains": [{
-			"key": "domain 1 phase 1",
-			"value": "domain 1 phase 1"
-		}]
-	}, {
-		"key": "Planning Phase 2",
-		"value": "Planning Phase 2",
-		"domains": [{
-			"key": "domain 1 phase 2",
-			"value": "domain 1 phase 2"
-		}]
+	"picklistFieldValues": {
+		"Phase__c": {
+			"controllerValues": {
 
-	}, {
-		"key": "Exit Planning Phase 3",
-		"value": "Exit Planning Phase 3",
-		"domains": []
-	}]
+			},
+			"values": [{
+					"attributes": null,
+					"label": "Pre-Deal Diligence",
+					"validFor": [
+
+					],
+					"value": "Pre-Deal Diligence"
+				},
+				{
+					"attributes": null,
+					"label": "100 Day Planning",
+					"validFor": [
+
+					],
+					"value": "100 Day Planning"
+				},
+				{
+					"attributes": null,
+					"label": "Hold Optimization",
+					"validFor": [
+
+					],
+					"value": "Hold Optimization"
+				},
+				{
+					"attributes": null,
+					"label": "Exit Planning",
+					"validFor": [
+
+					],
+					"value": "Exit Planning"
+				}
+			]
+		}
+	}
 }
